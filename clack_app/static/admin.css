@@ -1,0 +1,97 @@
+
+.top_row{
+    /* background-color: black; */
+    width: 970px;
+    vertical-align: top;
+    color: #FFFFFF;
+    /* background: #232323; */
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+.clack_chat{
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    }
+.top_left{
+    width: 125px;
+    display: inline-block;
+    height: 300px;
+    color: white;
+    text-align: center;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+.top_mid{
+    display: inline-block;
+    width: 705px;
+    height: 300px;
+    background-image: url("./kbanimation.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: blur(3px); */
+    box-shadow: 0 0 10px 10px #141414;
+    border-radius: 120px 120px 120px 120px;
+    text-align: center;
+    color: #FFFFFF;
+    /* background: #232323; */
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    margin: 40px 0px 0px 40px;
+
+    
+}
+/* #admin{
+    font-size: x-small;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 60px;
+    text-align: center;
+    position: absolute;
+    /* height: 60px;
+    width: 90px; */
+/* } */ 
+.top_right{
+    width: 125px;
+    display: inline-block;
+    height: 300px;
+    color: white;
+    text-align: center;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    
+
+}
+.log_box{
+    width: 250px;
+    display: inline-block;
+    margin-top: -50px;
+}
+a{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#sub_button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: center;
+    transition: 1s;
+    background-color: rgb(236,253,223);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    
+    }
+    #sub_button:hover{
+        background-color: black;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+        transition: 1s;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px;
+        color: white;
+    }
+    #password_field{
+    margin-left:84px ;
+    }

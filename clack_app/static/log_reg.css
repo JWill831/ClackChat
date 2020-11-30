@@ -1,0 +1,76 @@
+/* .container {
+            display:inline-block;
+            width:400px;
+            vertical-align: top;
+        } */
+.reg_box{
+    width: 350px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 87px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+}
+.log_box{
+    width: 325px;
+    background: black;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+}
+.wrapper{
+    background-image: url("./darkbackground.jpg");
+    background-size: contain;
+    width: 970px;
+    min-height: 750px;
+}
+li{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+    width: 200px;
+    font-size: 20px;
+}
+p{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+}
+h1{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+}
+a{text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+
+}
+#sub_button{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: center;
+    transition: 1s;
+    background-color: rgb(236,253,223);
+    text-shadow: 0 0 5px black, 0 0 10px, black, 0 0 15px, black, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    
+    }
+#sub_button:hover{
+    background-color: black;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    transition: 1s;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 4px;
+    color: white;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/home.css' %}">
+</head>
+
+<body>
+    {% load tz %} {% timezone "America/Los_Angeles" %}
+    <div class="top_row">
+        <div class="top_left">
+            <h1>C</h1>
+            <h1>L</h1>
+            <h1>A</h1>
+            <h1>C</h1>
+            <h1>K</h1>
+        </div>
+        <div class="top_mid">
+            <a id='admin' href="/admin">.</a>
+
+        </div>
+        <div class="top_right">
+            <h1>C</h1>
+            <h1>H</h1>
+            <h1>A</h1>
+            <h1>T</h1>
+            <h1>!</h1>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="/register" class="log">Login</a></li>
+            <li><a href="/register" class="log">Register</a></li>
+            <li><a href="/logout" class="log">Logout</a></li>
+            <li><a href="/videos">Videos</a></li>
+            <li><a href="/articles">Articles</a></li>
+            <li><a href="/vendors">Vendors</a></li>
+            <li><a href="https://www.reddit.com/r/MechanicalKeyboards/">Reddit</a></li>
+            <!-- <li><a href="">Group Buys</a></li> -->
+            <li><a href="/qmk">QMK</a></li>
+            <li><a href="/games">Testing</a></li>
+        </ul>
+
+    </div>
+    
+    <div class="wrapper">
+        {% if user.id == None %}
+        {%else%}
+        <div class="message_box">
+            {% if user.id == None %}
+            {%else%}
+            <h2>Clack away {{ user.user_name }}!</h2>
+            {% endif %}
+            <form action="/message" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <h3>Please enter a comment or uplaod a picture!</h3>
+                <label class='file_button' for="file_picker">
+                <input id='file_picker' type="file" name="image_name">
+                Upload File
+                </label>
+                <p>Enter Comments</p>
+                <textarea name="message" id="textarea" cols="60" rows="10"></textarea>
+                <button id="sub_button" type="submit">Enter</button>
+            </form>
+        </div>
+        {% endif %}
+        <!-- this is where comments go -->
+        <div class="chat_area">
+            {% for message in messages %}
+            {% if message.image != "" %}
+            <img class='msg_image' src="/static{{message.image}}" alt="image" />
+            {% endif %}
+            {% if user.admin_level == 1 %}
+            <a id='destroy' href="/delete/{{message.id}}">DESTROY!!!</a>
+            {% endif %}
+            <p id="chat_text">
+                {{message.user.user_name}} Said: {{ message.message }} -
+                {{message.created_at}}</p>
+
+            {% endfor %}
+        </div>
+
+
+
+
+
+    </div>
+    {% endtimezone %}
+</body>
+
+</html>
