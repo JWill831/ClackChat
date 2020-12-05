@@ -30,4 +30,4 @@ Things I would have liked to improved are: making the site responvie, mobile fri
 
 <strong>Project Video Demo:</strong></br>
 ![ClackChat]()</br></br>
-[ScrubDubs](https://youtu.be/BK7Y7n3rX6A "video")
+
