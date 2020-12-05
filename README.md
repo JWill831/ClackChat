@@ -17,4 +17,4 @@ ClackChat is a keyboard hobbiest hub with a goal of bring people together to sha
   </ul>
 
 <strong>Project Video Demo:</strong></br>
-![ClackChat](https://youtu.be/BK7Y7n3rX6A)</br></br>
+![ClackChat]()</br></br>
