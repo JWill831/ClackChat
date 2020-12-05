@@ -14,7 +14,13 @@ ClackChat is a keyboard hobbiest hub with a goal of bring people together to sha
   <li>Impliment log in and registration with password encryption</li>
   <li>Impliment log in and registration with password encryption</li>
   <li>Explore front end stlying and CSS properties</li>
+  <li>Media file upload and storage</li>
   </ul>
+  
+ <strong>Experience Summary:</strong></br>
+ClackChat was my very first coding project as an alumni at Coding Dojo, which is a 14 week intensive coding bootcamp. After only 3 weeks of experience, I was able to create a website that included a front end / back end validations, log 'n reg, and password encryption. At the time, I had some limitations to the funcitonality of the site, and because we only had 1 week to complete the project, I had to move on without fully implimenting some of the features I had originally invisioned for ClackChat. 
+
+Things I would have liked to improved are: making the site responvie, mobile friendly, light mode dark mode options, include typing sound when typing in message board, custom text colors to reflect actual keycap sets in community, and add a user profile page.
 
 <strong>Project Video Demo:</strong></br>
 ![ClackChat]()</br></br>
